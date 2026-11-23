@@ -9,11 +9,11 @@ CloudVision action script that performs pre-upgrade readiness checks on a device
 3. If all interfaces are connected, signals the device is ready for upgrade
 4. If any interfaces are disconnected, throws a warning and blocks the upgrade
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
