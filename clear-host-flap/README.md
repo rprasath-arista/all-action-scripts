@@ -7,11 +7,11 @@ CloudVision action script to clear BGP EVPN host-flap counters on a device.
 - Runs `clear bgp evpn host-flaps` on the target device
 - Resets host-flap detection counters, useful after resolving a flapping host or during maintenance windows
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
