@@ -1,0 +1,21 @@
+# Fiserv - Type Low
+
+CloudVision action script to copy a predefined BCM shell script (cint) file to a device's flash storage for the Gen3-258990 workaround (low variant).
+
+## What It Does
+
+- Takes a filename/path as input (defaults to `/mnt/flash/gen3-258990.cint`)
+- Copies a predefined BCM shell script to the specified path on the device using `copy terminal:`
+- The script modifies `IHP_UNKNOWN_DA_MAP` entries across all valid BCM units
+
+## Inputs
+
+| Name | Type | Default | Description |
+|------|------|---------|-------------|
+| DeviceID | Dynamic | — | Target device ID, automatically populated at runtime |
+| filename | Static | `/mnt/flash/gen3-258990.cint` | Destination file path on the device's flash |
+
+## Output
+
+- Logs confirmation that content was copied to the destination
+- Raises `ActionFailed` if the filename is missing or the copy command fails
