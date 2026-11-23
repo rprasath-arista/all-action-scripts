@@ -11,10 +11,10 @@ CloudVision action script to unshut selected interfaces on a device after an upg
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
-| interfaces | Dynamic | Comma-separated list of interfaces to unshut (e.g. `Ethernet1, Ethernet2, Ethernet3`) |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
+| interfaces | Dynamic | |
 
 ## Output
 
