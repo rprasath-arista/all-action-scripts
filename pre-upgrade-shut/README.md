@@ -11,10 +11,10 @@ CloudVision action script to shut down selected interfaces on a device before an
 
 ## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
-| interfaces | Dynamic | Comma-separated list of interfaces to shut down (e.g. `Ethernet1, Ethernet2, Ethernet3`) |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
+| interfaces | Dynamic | |
 
 ## Output
 
