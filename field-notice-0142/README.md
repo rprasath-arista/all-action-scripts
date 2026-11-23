@@ -9,10 +9,11 @@ CloudVision action scripts for identifying and remediating devices affected by F
 
 Identifies affected devices based on model and uptime. Checks if the device model matches any affected CCS-720 or DCS-7000 series SKUs and calculates how many days remain before the 1042-day uptime threshold is reached.
 
-**Input:**
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Automatically populated with the target device ID at runtime |
+**Inputs:**
+
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 **Output:**
 - Devices not in the affected model list are logged as info
@@ -23,9 +24,5 @@ Identifies affected devices based on model and uptime. Checks if the device mode
 ### Task 2: Save Config and Copy Patch
 *Coming soon*
 
-Save running config and copy the remediation patch file to flash.
-
 ### Task 3: Install Patch and Finish Checks
 *Coming soon*
-
-Install the patch and run post-installation verification checks.
