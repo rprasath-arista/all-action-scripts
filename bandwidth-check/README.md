@@ -9,11 +9,11 @@ CloudVision action script that monitors interface packet rates and flags any int
 - Fails the action if any interface exceeds the 50% threshold, listing all offenders
 - Passes silently when all interfaces are within limits
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
