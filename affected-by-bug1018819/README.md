@@ -9,11 +9,11 @@ CloudVision action script to identify devices affected by BUG1018819 by checking
 - Retrieves the device hostname via `show hostname` for reporting
 - Logs whether the device is affected by BUG1018819
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
