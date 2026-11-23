@@ -9,11 +9,11 @@ CloudVision action script that checks interface bandwidth utilization against a 
 - Logs each interface with PASS/FAIL status
 - Raises `ActionFailed` if any interface exceeds the threshold (default: 1%)
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
