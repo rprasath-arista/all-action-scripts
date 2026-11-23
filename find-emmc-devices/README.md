@@ -8,11 +8,11 @@ CloudVision action script to identify devices with Smart eMMC storage that can b
 - Checks for Smart eMMC models containing **08GP1A** or **16GP1A**
 - Logs whether the device has affected eMMC storage or not
 
-## Input
+## Inputs
 
-| Name | Type | Description |
-|------|------|-------------|
-| DeviceID | Dynamic | Target device ID, automatically populated at runtime |
+| Name | Type | Default |
+|------|------|---------|
+| DeviceID | Dynamic | |
 
 ## Output
 
